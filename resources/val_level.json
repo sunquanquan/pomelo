@@ -1,0 +1,32 @@
+[
+  {
+    "level": 1,
+    "strength": 1,
+    "difficulty": 1
+  },
+  {
+    "level": 2,
+    "strength": 1,
+    "difficulty": 1
+  },
+  {
+    "level": 3,
+    "strength": 1,
+    "difficulty": 2
+  },
+  {
+    "level": 4,
+    "strength": 1,
+    "difficulty": 2
+  },
+  {
+    "level": 5,
+    "strength": 1,
+    "difficulty": 3
+  },
+  {
+    "level": 6,
+    "strength": 1,
+    "difficulty": 3
+  }
+]
