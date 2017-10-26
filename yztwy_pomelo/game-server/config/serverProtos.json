@@ -1,0 +1,39 @@
+{
+  "gate.gateHandler.queryEntry": {
+    "required int32 code": 1,
+    "required string host": 2,
+    "required int32 port": 3
+  },
+  "connector.entryHandler.entry": {
+    "required int32 code": 1,
+    "required string utcMs": 2
+  },
+  "area.playerHandler.getData": {
+    "required int32 code": 1,
+    "required string utcMs": 2,
+    "message userData": {
+      "optional string uid": 1,
+      "optional string gameID": 2,
+      "optional string head": 3,
+      "optional int32 account": 4,
+      "optional string nickname": 5,
+      "optional int32 strength": 6,
+      "optional int32 revival": 7
+    },
+    "optional userData userData": 3,
+    "message roles":{
+      "optional int32 sid":1,
+      "optional int32 num":2
+    },
+    "repeated roles roles":4,
+    "message level":{
+      "optional int32 sid":1,
+      "optional int32 num":2
+    },
+    "repeated level level":5
+  },
+  "area.levelHandler.enterLevel": {
+    "required int32 code": 1,
+    "required string utcMs": 2
+  }
+}

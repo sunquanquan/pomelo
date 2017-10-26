@@ -1,0 +1,16 @@
+{
+  "development": {
+    "host": "121.40.39.229",
+    "port": 3306,
+    "database": "yztwy",
+    "user": "sunquanquan",
+    "password": "sunqq"
+  },
+  "production": {
+    "host": "121.40.39.229",
+    "port": 3306,
+    "database": "yztwy",
+    "user": "sunquanquan",
+    "password": "sunqq"
+  }
+}

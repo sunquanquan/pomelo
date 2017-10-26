@@ -1,0 +1,14 @@
+{
+  "gate.gateHandler.queryEntry": {
+    "required string uid": 1
+  },
+  "connector.entryHandler.entry": {
+    "required string uid": 1,
+    "required string token": 2
+  },
+  "area.playerHandler.getData": {
+    "optional int32 user": 1,
+    "optional int32 roles": 2,
+    "optional int32 level": 3
+  }
+}
